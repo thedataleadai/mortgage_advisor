@@ -1,0 +1,56 @@
+{
+  "name": "Mortgage Advisor - Initial Quality Baseline",
+  "description": "Establish quality baseline by labeling first successful traces and key failure cases",
+  "experiment_id": "552529352050103",
+  "schema_name": "Mortgage Advisor Quality Review",
+  "trace_selection_strategy": {
+    "approach": "stratified_sample",
+    "rationale": "Mix of successful and failed traces to understand both good and bad patterns",
+    "selection": [
+      {
+        "category": "Successful Traces (OK status)",
+        "count": 4,
+        "trace_ids": [
+          "tr-dc5801d25dfb0e17eb1e3b8cc14c4ab4",
+          "tr-019cafe9eb6d6eba302b6cbc827932b2",
+          "tr-483fe3aca0189d2e9b9625e9624d5bff",
+          "tr-115688ce26483ec12260af0c674a256b"
+        ],
+        "priority": "HIGH - These are your only successful traces. Label these first!"
+      },
+      {
+        "category": "Recent Failures (ERROR status)",
+        "count": 6,
+        "trace_ids": [
+          "tr-f7c05f9e4f940ff50b8b1874dd1f01fd",
+          "tr-4d1538276c4a3f8584aa4a25a021aa42",
+          "tr-6cb45ba7aa2e3728f17a314fdf4e25e5",
+          "tr-26460711de4ae7a3070ef10c48e0b744",
+          "tr-bc0b5dfdcac0399cdaf20abfecd638d4",
+          "tr-f084216366f44a568d4df90eb3732451"
+        ],
+        "priority": "MEDIUM - Understand why these failed"
+      }
+    ],
+    "total_traces": 10
+  },
+  "reviewers": [
+    {
+      "email": "paul.karikari@thedatalead.ai",
+      "role": "owner",
+      "assignment": "all traces"
+    }
+  ],
+  "timeline": {
+    "start_date": "2026-06-15",
+    "deadline": "2026-06-22",
+    "estimated_time": "30 min (3 min per trace \u00d7 10 traces)"
+  },
+  "labeling_guidelines": [
+    "Focus on the 4 successful traces first - these define 'good quality'",
+    "For failed traces, note what went wrong in the 'Issues & Notes' field",
+    "Be consistent: use the same standards for all traces",
+    "When uncertain, be honest (use middle ratings like 'Acceptable' or 'Adequate')",
+    "The 'Issues & Notes' text field is valuable - use it!"
+  ]
+}

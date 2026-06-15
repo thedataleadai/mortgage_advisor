@@ -1,0 +1,78 @@
+# Databricks Apps Deployment Ignore File
+# Exclude these files and directories from app deployment
+
+# Virtual environments (CRITICAL - prevents symlink errors)
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Development and testing
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git and version control
+.git/
+.gitignore
+.github/
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*
+
+# Documentation and notes
+README.md
+*.md
+docs/
+
+# MLflow runs (local)
+mlruns/
+
+# Node modules (if any)
+node_modules/
+
+# Data files (if large)
+data/
+*.csv
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Claude/AI assistant files
+.claude/
+
+# Databricks specific
+.databricks/
+
+# Test files
+test/
+tests/
+*_test.py
+test_*.py

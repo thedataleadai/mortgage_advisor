@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,phone,ssn_last4,date_of_birth,annual_income,monthly_debts,credit_score,down_payment_available,employment_status,years_employed,property_type_interest,state,first_time_buyer,veteran_status,created_at,updated_at
+CUST0001,John,Smith,john.smith@email.com,555-242-2679,9935,1995-03-05,212621,428,586,82097,Full-Time,4,Multi-Family,CA,True,False,2026-04-19 23:41:42,2026-06-14 23:41:42
+CUST0002,Sarah,Johnson,sarah.johnson@email.com,555-833-9928,7873,1989-03-09,105990,1234,734,16956,Contract,4,Multi-Family,MI,False,False,2026-05-04 23:41:42,2026-06-14 23:41:42
+CUST0003,Michael,Williams,michael.williams@email.com,555-881-6514,2674,1994-11-30,228013,1065,667,82842,Full-Time,4,Multi-Family,TX,False,False,2026-01-10 23:41:42,2026-06-14 23:41:42
+CUST0004,Emily,Brown,emily.brown@email.com,555-487-2291,5803,1982-11-07,114342,1852,591,130435,Contract,2,Condo,TX,True,False,2026-03-31 23:41:42,2026-06-14 23:41:42
+CUST0005,David,Jones,david.jones@email.com,555-564-6977,3664,1982-06-20,65916,1951,639,36476,Self-Employed,5,Townhouse,NY,False,False,2026-01-09 23:41:42,2026-06-14 23:41:42
+CUST0006,Jessica,Garcia,jessica.garcia@email.com,555-488-5422,4598,1984-07-11,211455,550,716,74175,Full-Time,8,Single Family,NY,True,False,2026-03-03 23:41:42,2026-06-14 23:41:42
+CUST0007,James,Miller,james.miller@email.com,555-611-7482,8517,1992-08-31,115186,335,634,92490,Full-Time,11,Townhouse,FL,True,False,2026-01-15 23:41:42,2026-06-14 23:41:42
+CUST0008,Ashley,Davis,ashley.davis@email.com,555-621-9085,2489,1996-12-17,157311,1395,682,104895,Full-Time,3,Single Family,FL,True,True,2026-01-12 23:41:42,2026-06-14 23:41:42
+CUST0009,Robert,Rodriguez,robert.rodriguez@email.com,555-666-1188,2876,1974-12-27,61653,988,677,132696,Contract,5,Townhouse,PA,True,False,2026-02-22 23:41:42,2026-06-14 23:41:42
+CUST0010,Amanda,Martinez,amanda.martinez@email.com,555-282-9317,2743,1985-09-08,86460,1129,580,79045,Contract,13,Condo,FL,False,False,2026-01-26 23:41:42,2026-06-14 23:41:42
+CUST0011,William,Hernandez,william.hernandez@email.com,555-600-1319,2832,1982-10-16,249112,1286,815,10149,Contract,6,Townhouse,NY,True,False,2026-01-19 23:41:42,2026-06-14 23:41:42
+CUST0012,Jennifer,Lopez,jennifer.lopez@email.com,555-645-3060,3103,1977-10-02,65645,375,767,137399,Full-Time,13,Condo,IL,False,False,2026-01-26 23:41:42,2026-06-14 23:41:42
+CUST0013,Richard,Wilson,richard.wilson@email.com,555-787-7118,8177,1975-11-10,242988,1694,756,62730,Full-Time,7,Multi-Family,TX,True,False,2026-05-28 23:41:42,2026-06-14 23:41:42
+CUST0014,Lisa,Anderson,lisa.anderson@email.com,555-107-2163,1964,1988-10-21,133627,243,730,70323,Contract,4,Single Family,CA,False,False,2026-02-02 23:41:42,2026-06-14 23:41:42
+CUST0015,Thomas,Thomas,thomas.thomas@email.com,555-235-8744,4981,1977-11-09,107391,770,751,137248,Full-Time,9,Multi-Family,NY,True,False,2025-12-27 23:41:42,2026-06-14 23:41:42
+CUST0016,Michelle,Taylor,michelle.taylor@email.com,555-846-1887,2612,1996-05-09,157997,925,688,117767,Self-Employed,14,Multi-Family,PA,True,False,2026-04-25 23:41:42,2026-06-14 23:41:42
+CUST0017,Charles,Moore,charles.moore@email.com,555-385-8579,5092,1995-09-10,94862,1298,694,46747,Self-Employed,3,Multi-Family,NC,True,False,2025-12-29 23:41:42,2026-06-14 23:41:42
+CUST0018,Karen,Jackson,karen.jackson@email.com,555-516-8956,8886,1989-06-26,186711,1912,583,34448,Full-Time,3,Multi-Family,CA,True,True,2026-06-13 23:41:42,2026-06-14 23:41:42
+CUST0019,Daniel,Martin,daniel.martin@email.com,555-813-8973,3536,1990-07-22,147346,743,817,129277,Full-Time,7,Townhouse,NY,True,False,2026-03-25 23:41:42,2026-06-14 23:41:42
+CUST0020,Nancy,Lee,nancy.lee@email.com,555-973-9701,3579,1996-07-10,59985,302,729,134987,Contract,15,Single Family,FL,True,False,2025-12-23 23:41:42,2026-06-14 23:41:42

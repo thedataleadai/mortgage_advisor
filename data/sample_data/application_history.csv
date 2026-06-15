@@ -1,0 +1,6 @@
+application_id,customer_id,application_date,loan_amount,property_value,property_address,property_type,occupancy_type,application_status,notes
+APP001,CUST001,2024-01-15,380000,475000,"123 Oak St, San Francisco, CA 94102",Single Family,Primary Residence,Approved,Credit excellent; fast approval
+APP002,CUST002,2024-01-18,280000,350000,"456 Maple Ave, Austin, TX 78701",Condo,Primary Residence,In Review,Awaiting employment verification
+APP003,CUST003,2024-01-20,640000,800000,"789 Pine Rd, Seattle, WA 98101",Single Family,Primary Residence,Approved,VA loan; zero down payment
+APP004,CUST004,2024-01-22,200000,250000,"321 Birch Ln, Denver, CO 80202",Townhouse,Primary Residence,Conditional,Need additional income documentation
+APP005,CUST005,2024-02-01,450000,500000,"654 Cedar Dr, Portland, OR 97201",Single Family,Second Home,Denied,DTI ratio too high (48%)

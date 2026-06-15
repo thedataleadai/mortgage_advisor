@@ -1,0 +1,50 @@
+[
+  {
+    "request":"I make $100,000 per year and have $500 in monthly debts. I have $40,000 saved for a down payment. What home price can I afford?",
+    "expected_behavior":"Should calculate affordability using 28\/36 rule and provide max home price",
+    "tags":[
+      "affordability",
+      "calculation"
+    ]
+  },
+  {
+    "request":"What are the credit score requirements for FHA loans?",
+    "expected_behavior":"Should search compliance rules and return FHA credit requirements (580+ typically)",
+    "tags":[
+      "compliance",
+      "fha"
+    ]
+  },
+  {
+    "request":"Compare a 30-year mortgage at 7% vs a 15-year at 6.5% for a $300,000 loan",
+    "expected_behavior":"Should use compare_mortgage_scenarios tool and show monthly payment and total interest for both",
+    "tags":[
+      "comparison",
+      "calculation"
+    ]
+  },
+  {
+    "request":"I'm a veteran looking to buy my first home with no down payment",
+    "expected_behavior":"Should recommend VA loan products and explain 0% down benefit",
+    "tags":[
+      "va_loan",
+      "product_matching"
+    ]
+  },
+  {
+    "request":"My DTI ratio is 45%. Can I get a conventional loan?",
+    "expected_behavior":"Should explain that 45% DTI exceeds conventional limit (43%) and suggest FHA or debt reduction",
+    "tags":[
+      "dti",
+      "compliance"
+    ]
+  },
+  {
+    "request":"Calculate monthly payment for $250,000 loan at 6.5% for 30 years",
+    "expected_behavior":"Should use calculate_monthly_payment tool and return accurate payment (~$1,580)",
+    "tags":[
+      "calculation",
+      "simple"
+    ]
+  }
+]

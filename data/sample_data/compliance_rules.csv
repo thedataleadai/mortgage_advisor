@@ -1,0 +1,16 @@
+rule_id,rule_category,rule_name,rule_description,rule_type,threshold_value,threshold_operator,applies_to_product_types,severity,regulatory_source,active
+COMP001,Credit Score,Minimum Credit Score - Conventional,Conventional loans require minimum credit score of 620,Eligibility,620.0,>=,"Fixed 30-Year,Fixed 15-Year,Fixed 20-Year",Critical,FHFA Guidelines,True
+COMP002,Credit Score,Minimum Credit Score - FHA,FHA loans require minimum credit score of 580 for 3.5% down payment,Eligibility,580.0,>=,FHA 30-Year,Critical,HUD FHA Requirements,True
+COMP003,DTI Ratio,Maximum DTI Ratio - Conventional,Debt-to-income ratio must not exceed 43% for qualified mortgages,Affordability,43.0,<=,"Fixed 30-Year,Fixed 15-Year,Fixed 20-Year,ARM 5/1,ARM 7/1",Critical,CFPB Qualified Mortgage Rule,True
+COMP004,DTI Ratio,Maximum DTI Ratio - FHA,FHA allows DTI up to 50% with compensating factors,Affordability,50.0,<=,FHA 30-Year,High,HUD FHA Requirements,True
+COMP005,Down Payment,Minimum Down Payment - Conventional,Conventional loans typically require minimum 3-5% down payment,Eligibility,3.0,>=,"Fixed 30-Year,Fixed 15-Year,Fixed 20-Year",High,Lender Guidelines,True
+COMP006,PMI,PMI Requirement,Private Mortgage Insurance required when LTV exceeds 80%,Requirement,80.0,>,"Fixed 30-Year,Fixed 15-Year,Fixed 20-Year",Medium,Industry Standard,True
+COMP007,Employment,Employment History Verification,Minimum 2 years employment history required,Documentation,2.0,>=,All,High,Lender Guidelines,True
+COMP008,Income,Income Verification,Income must be verified with 2 years tax returns and recent pay stubs,Documentation,2.0,>=,All,Critical,CFPB ATR Rule,True
+COMP009,AML,Identity Verification,Identity must be verified per BSA/AML requirements,Compliance,,,All,Critical,Bank Secrecy Act,True
+COMP010,Property,Property Appraisal,Property must be appraised by licensed appraiser,Documentation,,,All,Critical,FIRREA,True
+COMP011,Loan Limits,Conforming Loan Limit,"Conventional conforming loans limited to $766,550 (2024)",Eligibility,766550.0,<=,"Fixed 30-Year,Fixed 15-Year,Fixed 20-Year",High,FHFA,True
+COMP012,Reserves,Cash Reserves,Reserves of 2-6 months PITI recommended based on LTV and credit,Risk Assessment,2.0,>=,All,Medium,Lender Guidelines,True
+COMP013,Occupancy,Owner Occupancy,Borrower must intend to occupy property as primary residence,Eligibility,,,"FHA 30-Year,VA 30-Year",Critical,Program Requirements,True
+COMP014,Credit History,Bankruptcy Waiting Period,Minimum 2-4 years wait after bankruptcy discharge,Eligibility,2.0,>=,All,Critical,Lender Guidelines,True
+COMP015,First-Time Buyer,First-Time Buyer Programs,Special programs available for first-time homebuyers,Benefit,,,"FHA 30-Year,Fixed 30-Year",Low,Various State Programs,True

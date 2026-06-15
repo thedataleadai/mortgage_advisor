@@ -1,0 +1,6 @@
+doc_id,customer_id,application_id,doc_type,content_summary,upload_date,verified_status
+MDOC001,CUST001,APP001,W2,"W2 2023: Gross income $150,000 from Tech Corp Inc.",2024-01-16,Verified
+MDOC002,CUST001,APP001,Tax Return,"Tax Return 2023: AGI $145,000, married filing jointly, no unusual deductions.",2024-01-16,Verified
+MDOC003,CUST002,APP002,Paystub,"Paystub Nov 2024: Monthly gross $8,333, YTD $91,663. Employer: StartUp Labs.",2024-01-19,Verified
+MDOC004,CUST002,APP002,Bank Statement,"Bank Statement Oct 2024: Savings $45,000, checking $12,000. Good transaction history.",2024-01-19,Verified
+MDOC005,CUST003,APP003,VA Certificate,"VA Certificate of Eligibility: Active duty 6 years, full entitlement available.",2024-01-21,Verified

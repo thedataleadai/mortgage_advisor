@@ -1,0 +1,128 @@
+{
+  "name": "Mortgage Advisor Quality Review",
+  "description": "Comprehensive quality assessment for mortgage advisor conversations covering financial accuracy, compliance, UX, and domain expertise.",
+  "fields": [
+    {
+      "name": "overall_quality",
+      "type": "categorical",
+      "label": "Overall Quality",
+      "description": "Overall assessment of the conversation quality",
+      "required": true,
+      "options": [
+        "Excellent",
+        "Good",
+        "Acceptable",
+        "Poor",
+        "Unacceptable"
+      ],
+      "instructions": "Consider all factors: accuracy, helpfulness, professionalism, and completeness."
+    },
+    {
+      "name": "financial_accuracy",
+      "type": "categorical",
+      "label": "Financial Accuracy",
+      "description": "Correctness of calculations and financial advice",
+      "required": true,
+      "options": [
+        "Accurate",
+        "Minor Errors",
+        "Major Errors",
+        "Not Applicable"
+      ],
+      "instructions": "Check: monthly payment calculations, affordability assessments, DTI ratios, interest rates, down payment requirements."
+    },
+    {
+      "name": "regulatory_compliant",
+      "type": "boolean",
+      "label": "Regulatory Compliant",
+      "description": "Does the advice follow fair lending laws?",
+      "required": true,
+      "instructions": "Flag FALSE if discriminatory language, Fair Housing violations, or ECOA/TILA issues present."
+    },
+    {
+      "name": "information_gathering",
+      "type": "categorical",
+      "label": "Information Gathering",
+      "description": "Did the agent collect necessary information?",
+      "required": true,
+      "options": [
+        "Thorough",
+        "Adequate",
+        "Incomplete",
+        "Not Attempted"
+      ],
+      "instructions": "Key info: income, debts, credit score, down payment, employment, property price."
+    },
+    {
+      "name": "explanation_clarity",
+      "type": "categorical",
+      "label": "Explanation Clarity",
+      "description": "Are explanations clear for non-experts?",
+      "required": true,
+      "options": [
+        "Very Clear",
+        "Clear",
+        "Somewhat Confusing",
+        "Very Confusing"
+      ],
+      "instructions": "Evaluate: plain language, jargon avoidance, logical flow, appropriate detail."
+    },
+    {
+      "name": "topics_covered",
+      "type": "categorical",
+      "label": "Important Topics Covered",
+      "description": "Which mortgage topics were meaningfully discussed?",
+      "required": false,
+      "options": [
+        "Monthly Payment Calculation",
+        "Down Payment Requirements",
+        "Debt-to-Income Ratio",
+        "Credit Score Requirements",
+        "Loan Types",
+        "Interest Rates",
+        "Taxes & Insurance",
+        "Closing Costs",
+        "Affordability",
+        "Term Comparison"
+      ]
+    },
+    {
+      "name": "tone_professionalism",
+      "type": "categorical",
+      "label": "Tone & Professionalism",
+      "description": "Was the tone appropriate and professional?",
+      "required": true,
+      "options": [
+        "Excellent",
+        "Good",
+        "Neutral",
+        "Poor"
+      ],
+      "instructions": "Consider: empathy, patience, professionalism, appropriate formality."
+    },
+    {
+      "name": "actionable_guidance",
+      "type": "boolean",
+      "label": "Provided Actionable Guidance",
+      "description": "Did the agent provide clear next steps?",
+      "required": true,
+      "instructions": "Mark TRUE if agent gave specific, actionable advice."
+    },
+    {
+      "name": "issues_notes",
+      "type": "text",
+      "label": "Issues & Notes",
+      "description": "Describe errors, concerns, or observations",
+      "required": false,
+      "instructions": "Document: calculation errors, compliance concerns, missed opportunities, highlights."
+    },
+    {
+      "name": "estimated_satisfaction",
+      "type": "numeric",
+      "label": "Estimated User Satisfaction (1-5)",
+      "description": "How satisfied would a real user be?",
+      "required": true,
+      "instructions": "1=Very Unsatisfied, 5=Very Satisfied. Consider user's likely emotional state."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+doc_id,customer_id,application_id,doc_type,content_summary,upload_date,verified_status
+PDOC001,CUST001,APP001,Property Appraisal,"Property appraised at $475,000. Excellent condition, recent renovations. Comparable sales support value.",2024-01-20,Verified
+PDOC002,CUST002,APP002,Home Inspection,"Minor issues identified: roof needs repair in 5 years, HVAC system 8 years old. Overall good condition.",2024-01-25,Verified
+PDOC003,CUST003,APP003,Property Appraisal,"Property appraised at $800,000. Premium location, updated kitchen and bathrooms. No issues found.",2024-01-28,Verified
+PDOC004,CUST004,APP004,Title Report,Title clear. No liens or encumbrances. Ready for closing.,2024-02-01,Verified
+PDOC005,CUST006,APP006,Property Appraisal,"Property appraised at $400,000. Good condition, needs cosmetic updates. Value aligns with market.",2024-02-12,Verified
