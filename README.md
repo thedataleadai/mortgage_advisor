@@ -300,28 +300,11 @@ See the [OpenAI Agents SDK documentation](https://platform.openai.com/docs/guide
 The mortgage advisor system is defined in:
 
 - **`agent_server/agent.py`**: Contains all agent logic including:
-  - Six specialized agent classes (Triage, Document Processing, Financial Analytics, Product Matching, Compliance, Customer Communication)
-  - Coordinator agent with intelligent routing logic
-  - 10+ specialized mortgage tools integrated with Unity Catalog
-  - MLflow tracing with custom spans and metrics
+  - Mortgage calculation tools (`calculate_monthly_payment`, `calculate_affordability`, `compare_mortgage_scenarios`)
+  - Four specialized agents (Data Researcher, Analyst, Report Writer, Coordinator)
+  - Agent orchestration logic
   
 - **`agent_server/start_server.py`**: Initializes and runs the MLflow `AgentServer` with agent_type="ResponsesAgent". You don't have to modify this file for most common use cases, but can add additional server routes (e.g. a `/metrics` endpoint) here
-
-- **`data/`**: Sample CSV data:
-  - `sample_data/` - Customer profiles, lender products, compliance rules, application history
-  - `documents/` - Payslips, bank statements, property documents, mortgage documents
-
-- **`scripts/setup/`**: Setup notebooks:
-  - `00_generate_all_uc_functions.py` - Generates UC function SQL files
-  - `01_setup_catalog.py` - Creates Unity Catalog structure
-  - `02_load_data.py` - Loads sample data
-  - `03_create_uc_functions.py` - Deploys UC functions
-
-- **`scripts/uc_functions/`**: Unity Catalog SQL functions:
-  - `01_calculate_monthly_payment.sql`
-  - `02_calculate_dti_ratio.sql`
-  - `03_calculate_ltv_ratio.sql`
-  - `04_check_eligibility.sql`
 
 ### Customization Ideas
 
