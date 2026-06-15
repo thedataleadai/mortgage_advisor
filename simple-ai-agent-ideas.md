@@ -33,6 +33,11 @@ The agent should:
 Update the system prompt, agent name, and any configuration to match this nutrition specialist role.
 ```
 
+### Test User Inputs:
+1. "What are some high-protein breakfast ideas?"
+2. "How many calories are in a chicken caesar salad?"
+3. "I'm vegetarian, can you suggest a weekly meal plan?"
+
 ---
 
 ## 2. Personal Fitness Coach
@@ -66,6 +71,11 @@ The agent should:
 
 Update the system prompt, agent name, and configuration to create an enthusiastic fitness coaching experience.
 ```
+
+### Test User Inputs:
+1. "I want to build muscle, what workout routine should I follow?"
+2. "How do I do a proper squat?"
+3. "Create a 3-day-a-week workout plan for beginners"
 
 ---
 
@@ -102,6 +112,11 @@ The agent should:
 Update the system prompt, agent name, and configuration to create a supportive learning environment.
 ```
 
+### Test User Inputs:
+1. "Help me study the French Revolution" (paste study notes)
+2. "Generate 10 practice questions on photosynthesis"
+3. "What's a good way to memorize the periodic table?"
+
 ---
 
 ## 4. Travel Planning Assistant
@@ -136,6 +151,11 @@ The agent should:
 
 Update the system prompt, agent name, and configuration to create an enthusiastic travel planning experience.
 ```
+
+### Test User Inputs:
+1. "Plan a 5-day trip to Tokyo for two people"
+2. "What should I pack for Iceland in March?"
+3. "Budget-friendly restaurants in Barcelona?"
 
 ---
 
@@ -173,6 +193,11 @@ The agent should:
 Update the system prompt, agent name, and configuration to create a caring pet care advisory experience.
 ```
 
+### Test User Inputs:
+1. "My puppy is biting everything, how do I stop this?"
+2. "What's a good feeding schedule for a kitten?"
+3. "Enrichment ideas for an indoor cat?"
+
 ---
 
 ## How to Use These Prompts
@@ -196,7 +221,7 @@ Update the system prompt, agent name, and configuration to create a caring pet c
 
 5. **Test your new agent**
    - Deploy the app
-   - Try the example conversation starters below
+   - Try the "Test User Inputs" provided for each agent
    - Iterate with Genie if you want adjustments
 
 6. **Optional: Ask Genie for enhancements**
